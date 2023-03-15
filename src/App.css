@@ -1,0 +1,160 @@
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+.header {
+  background-size: cover;
+  min-height: 120vh;
+  background-repeat: no-repeat;
+  color: black;
+  background-image: url("./assets/bgBall.jpg");
+  background-size: 100% 100%;
+}
+.adressetitle {
+  text-align: center;
+  position: relative;
+  top: 300px;
+  text-transform: uppercase;
+}
+
+.adress {
+  color: rgb(255, 60, 0);
+}
+.title {
+  color: rgb(0, 4, 255);
+  font-size: 40px;
+}
+
+.adresstitle {
+  text-align: center;
+  /* position: relative; */
+  top: 300px;
+  text-transform: uppercase;
+}
+.button {
+  background-color: #25d8ba;
+  border: none;
+  color: rgba(7, 1, 1, 0.92);
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.navbar {
+  color: rgb(0, 4, 255);
+  position: relative;
+  left: 500px;
+}
+.modalContact {
+  position: absolute;
+  background-color: aliceblue;
+  width: 600px;
+  height: 500px;
+  margin-left: 400px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 20px;
+  transition: all 0.4s;
+}
+.modalList {
+  position: absolute;
+  background-color: aliceblue;
+  width: 600px;
+  height: 90%;
+  margin-left: 400px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 20px;
+  transition: all 0.4s;
+}
+.modalHead {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 20px;
+  top: 0;
+}
+
+.btnx {
+  margin-right: 20px;
+}
+.modalBody {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  margin-top: 50px;
+  margin-left: 80px;
+}
+.input {
+  margin-left: 0;
+  padding: 20px;
+  width: 70%;
+}
+.inptsection {
+  margin-left: -90px;
+  margin-top: 10px;
+}
+.inpt {
+  padding: 20px;
+  width: 70%;
+}
+.modelFooter {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  justify-content: space-between;
+  margin-bottom: 10%;
+}
+.btn {
+  width: 100px;
+  margin: 20px;
+
+  height: 50px;
+  background-color: transparent;
+  font-size: large;
+}
+.btn1 {
+  margin-top: 50px;
+}
+.table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+.td {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+  margin-left: 100px;
+}
+.th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+  margin-left: 100px;
+}
+.tr:nth-child(even) {
+  background-color: #dddddd;
+}
+.liste {
+  margin-right: 100px;
+  margin-top: -50px;
+}
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.App {
+  text-align: center;
+}
